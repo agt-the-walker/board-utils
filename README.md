@@ -12,6 +12,11 @@
 
 Players should keep the value of Gold Coins they hold face down (p.2)
 
+## Scythe
+
+While the number of coins you have during the game is not hidden information,
+you are never required to reveal their total value to other players (p.7)
+
 ## Stone Age
 
 Each player places their cards face-down on the corresponding space of their
@@ -21,11 +26,6 @@ player board (p.6)
 
 Events (red cards, C) are collected in a personal pile face down after being
 played (p.10)
-
-## Scythe
-
-While the number of coins you have during the game is not hidden information,
-you are never required to reveal their total value to other players (p.7)
 
 ## The Pillars of the Earth
 

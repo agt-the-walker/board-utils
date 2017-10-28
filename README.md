@@ -12,6 +12,11 @@
 
 Players should keep the value of Gold Coins they hold face down (p.2)
 
+## Great Western Trail
+
+However, during the game, you can improve your deck by adding market cattle
+cards with higher breeding values as well as objective cards to it (p.5)
+
 ## Scythe
 
 While the number of coins you have during the game is not hidden information,

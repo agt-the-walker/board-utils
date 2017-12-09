@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+require 'json'
+require 'nokogiri'
+
+json = []
+
+Nokogiri::XML(STDIN.read).css('/boardgames/boardgame').each do |boardgame|
+  ratings = boardgame.css('/statistics/ratings')
+
+  json << [boardgame.css('/name[primary="true"]').text,
+           boardgame.css('/minplayers').text.to_i,
+           boardgame.css('/maxplayers').text.to_i,
+           boardgame.css('/playingtime').text.to_i,
+           ratings.css('/averageweight').text.to_f.round(2),
+           ratings.css('/average').text.to_f.round(2),
+           ratings.css('/ranks/rank[name="boardgame"]')[0]['value'].to_i]
+end
+
+puts JSON.generate(json)

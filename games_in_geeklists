@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+
+require 'net/http'
+require 'nokogiri'
+
+USER = 'Agt the Walker'
+GEEKLIST_URL = URI.escape(
+                 "https://boardgamegeek.com/geeklist/lists/user/#{USER}"
+               )
+
+uri = URI(GEEKLIST_URL)
+Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
+  geeklists = Nokogiri::HTML(http.get(uri.request_uri).body)\
+                            .css('td.mf/a')\
+                            .collect { |a| a['href'].split('/')[2].to_i }
+  geeklists.each do |geeklist|
+    Nokogiri::XML(http.get("/xmlapi/geeklist/#{geeklist}").body)\
+                 .css('/geeklist/item').each do |item|
+      puts "#{item['objectid']},#{item['objectname']}"
+    end
+  end
+end

@@ -12,8 +12,8 @@ Nokogiri::XML(STDIN.read).css('/boardgames/boardgame').each do |boardgame|
            boardgame.css('/minplayers').text.to_i,
            boardgame.css('/maxplayers').text.to_i,
            boardgame.css('/playingtime').text.to_i,
-           ratings.css('/averageweight').text.to_f.round(2),
-           ratings.css('/average').text.to_f.round(2),
+           ratings.css('/averageweight').text.to_f,
+           ratings.css('/average').text.to_f,
            ratings.css('/ranks/rank[name="boardgame"]')[0]['value'].to_i]
 end
 

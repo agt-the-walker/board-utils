@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html><head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>HTI (Hidden Trackable Information) in Board Games</title>
+ <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+ <script>
+
+$(document).ready(function() {
+  $('#games').DataTable({
+    'paging': false,
+    'responsive': true,
+    'ajax': {
+      url: 'hti.json',
+      dataSrc: ''
+    },
+    'columns': [
+      { data: 'name' }, 
+      { data: 'citation' }
+    ],
+    'columnDefs': [
+      {
+        'targets': [1],
+        'defaultContent': ''
+      }
+    ],
+    'rowCallback': (row, data, index) => {
+      const hti = data.hti
+      let bgColor
+
+      /* thanks http://clrs.cc/ */
+      if (hti === "yes")
+        bgColor = '#FF4136'
+      else if (hti === "no")
+        bgColor = '#01FF70'
+      else
+        bgColor = '#FFDC00'
+
+      $(row).find('td:eq(0)').css('background-color', bgColor);
+    }
+  });
+});
+
+ </script>
+</head>
+<body>
+ <table id="games" class="display compact" cellspacing="0" width="100%">
+   <thead>
+    <tr>
+     <th>Name</th>
+     <th>Citation</th>
+    </tr>
+   </thead>
+ </table>
+</body></html>

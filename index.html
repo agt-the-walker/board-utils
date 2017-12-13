@@ -4,12 +4,12 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <title>HTI (Hidden Trackable Information) in Board Games</title>
  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
  <script>
 
 $(document).ready(function() {
-  $('#games').DataTable({
+  const table = $('#games').DataTable({
     'paging': false,
     'responsive': true,
     'ajax': {
@@ -41,12 +41,19 @@ $(document).ready(function() {
       $(row).find('td:eq(0)').css('background-color', bgColor);
     }
   });
+
+  $('a.toggle-vis').on('click', function (e) {
+    e.preventDefault();
+    const column = table.column($(this).attr('data-column'));
+    column.visible(! column.visible());
+  });
 });
 
  </script>
 </head>
 <body>
- <table id="games" class="display compact" cellspacing="0" width="100%">
+ Toggle column: <a class="toggle-vis" data-column="1" href="#">Citation</a>
+ <table id="games" class="display compact">
    <thead>
     <tr>
      <th>Name</th>

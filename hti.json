@@ -1,276 +1,142 @@
 {
     "Azul": {
         "hti": "no",
-        "references": {
-            "Rules": {
-                "retrieved": "2017-12-13",
-                "url": "https://www.planbgames.com/en/index.php?controller=attachment&id_attachment=9"
-            }
-        }
+        "retrieved": "2017-12-13",
+        "url": "https://www.planbgames.com/en/index.php?controller=attachment&id_attachment=9"
     },
     "Caverna": {
         "hti": "no",
-        "references": {
-            "Rules": {
-                "retrieved": "2017-12-13",
-                "url": "https://boardgamegeek.com/file/download/nk66lnd8hh/Caverna_Rules_EN.pdf.zip"
-            }
-        }
+        "retrieved": "2017-12-13",
+        "url": "https://boardgamegeek.com/file/download/nk66lnd8hh/Caverna_Rules_EN.pdf.zip"
     },
     "Clans of Caledonia": {
         "hti": "no",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "Note: Players may never hide any information"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "https://boardgamegeek.com/file/download/w7xycmxdun/Caledonia_Rules_EN_CC15_dc52_web.pdf"
-            }
-        }
+        "citation": "Note: Players may never hide any information",
+        "retrieved": "2017-12-13",
+        "url": "https://boardgamegeek.com/file/download/w7xycmxdun/Caledonia_Rules_EN_CC15_dc52_web.pdf"
     },
     "Clash of Cultures": {
         "hti": "no",
-        "references": {
-            "Rules": {
-                "retrieved": "2017-12-13",
-                "url": "https://images-cdn.zmangames.com/us-east-1/filer_public/fc/64/fc648ee9-78b9-40c3-be64-fbd92e087c4a/clash-of-cultures-rulescompressed.pdf"
-            }
-        }
+        "retrieved": "2017-12-13",
+        "url": "https://images-cdn.zmangames.com/us-east-1/filer_public/fc/64/fc648ee9-78b9-40c3-be64-fbd92e087c4a/clash-of-cultures-rulescompressed.pdf"
     },
     "Concordia": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "All played cards form a personal discard pile showing only the last card played"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "http://riograndegames.com/getFile.php?id=1812"
-            }
-        }
+        "citation": "All played cards form a personal discard pile showing only the last card played",
+        "retrieved": "2017-12-13",
+        "url": "http://riograndegames.com/getFile.php?id=1812"
     },
     "Cytosis: A Cell Biology Game": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "Cards in a player’s hand are kept secret from other players until completed, [...]"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "https://boardgamegeek.com/file/download/wcmk05ufcu/Cytosis_-_Rulebook_-_Final_Panda_Print.pdf"
-            }
-        }
+        "citation": "Cards in a player’s hand are kept secret from other players until completed, [...]",
+        "retrieved": "2017-12-13",
+        "url": "https://boardgamegeek.com/file/download/wcmk05ufcu/Cytosis_-_Rulebook_-_Final_Panda_Print.pdf"
     },
     "El Grande": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "After making their selections, the players put their unused cards face down in the box. They will not be used in this game"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "http://www.yucata.de/langnet/1/ElGrandeRules.pdf"
-            }
-        }
+        "citation": "After making their selections, the players put their unused cards face down in the box. They will not be used in this game",
+        "retrieved": "2017-12-13",
+        "url": "http://www.yucata.de/langnet/1/ElGrandeRules.pdf"
     },
     "Five Tribes": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "Coins they hold face down (so that the exact amount remains secret from other players) until the end of the game"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "https://cdn1.daysofwonder.com/five-tribes/en/img/ft_rules_2015-06_en.pdf"
-            }
-        }
+        "citation": "Coins they hold face down (so that the exact amount remains secret from other players) until the end of the game",
+        "retrieved": "2017-12-13",
+        "url": "https://cdn1.daysofwonder.com/five-tribes/en/img/ft_rules_2015-06_en.pdf"
     },
     "Great Western Trail": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "However, during the game, you can improve your deck by adding market cattle cards with higher breeding values as well as objective cards to it"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "https://boardgamegeek.com/file/download/u29slde4up/GWT_Rules_GB_LR.pdf"
-            }
-        }
+        "citation": "However, during the game, you can improve your deck by adding market cattle cards with higher breeding values as well as objective cards to it",
+        "retrieved": "2017-12-13",
+        "url": "https://boardgamegeek.com/file/download/u29slde4up/GWT_Rules_GB_LR.pdf"
     },
     "Magnum Sal": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "When a tool is used, it is turned face down to indicate that it cannot be used again during this phase"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "https://boardgamegeek.com/file/download/6rzn7vjgrr/MagnumSal_Rulebook_EN.pdf"
-            }
-        }
+        "citation": "When a tool is used, it is turned face down to indicate that it cannot be used again during this phase",
+        "retrieved": "2017-12-13",
+        "url": "https://boardgamegeek.com/file/download/6rzn7vjgrr/MagnumSal_Rulebook_EN.pdf"
     },
     "Photosynthesis": {
         "hti": "no",
-        "references": {
-            "Rules": {
-                "retrieved": "2017-12-13",
-                "url": "http://www.blueorangegames.com/administrator/components/com_bogames/files/rules/0d34bfea9b65afb5e81a3fc5ef1adf80-Photosynthesis-Rules-US-v2-1.pdf"
-            }
-        }
+        "retrieved": "2017-12-13",
+        "url": "http://www.blueorangegames.com/administrator/components/com_bogames/files/rules/0d34bfea9b65afb5e81a3fc5ef1adf80-Photosynthesis-Rules-US-v2-1.pdf"
     },
     "Puerto Rico": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "A player keeps his victory points, unlike his money and goods, secret from the others"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "http://riograndegames.com/getFile.php?id=675"
-            }
-        }
+        "citation": "A player keeps his victory points, unlike his money and goods, secret from the others",
+        "retrieved": "2017-12-13",
+        "url": "http://riograndegames.com/getFile.php?id=675"
     },
     "Pulsar 2849": {
         "hti": "no",
-        "references": {
-            "Rules": {
-                "retrieved": "2017-12-13",
-                "url": "https://czechgames.com/files/rules/pulsar-2849-rules-en.pdf"
-            }
-        }
+        "retrieved": "2017-12-13",
+        "url": "https://czechgames.com/files/rules/pulsar-2849-rules-en.pdf"
     },
     "Roll for the Galaxy": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "Which tiles are beneath the top tile of each construction zone stack are secret. A player may look at tiles in his own stacks at any time. When asked, he must tell other players the size of each stack"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "http://riograndegames.com/getFile.php?id=1837"
-            }
-        }
+        "citation": "Which tiles are beneath the top tile of each construction zone stack are secret. A player may look at tiles in his own stacks at any time. When asked, he must tell other players the size of each stack",
+        "retrieved": "2017-12-13",
+        "url": "http://riograndegames.com/getFile.php?id=1837"
     },
     "Scythe": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "While the number of coins you have during the game is not hidden information, you are never required to reveal their total value to other players"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "https://app.box.com/s/rj3jrw0rab2uiz02up89kbant5g8ew1p/folder/6316565229",
-                "item": "ScytheRules_5th_r20-Panda.pdf"
-            }
-        }
+        "citation": "While the number of coins you have during the game is not hidden information, you are never required to reveal their total value to other players",
+        "retrieved": "2017-12-13",
+        "url": "https://app.box.com/s/rj3jrw0rab2uiz02up89kbant5g8ew1p/folder/6316565229",
+        "item": "ScytheRules_5th_r20-Panda.pdf"
     },
     "Splendor": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "To reserve a card, a player simply needs to take a face-up development from the middle of the table or [...]. The reserved cards are kept in hand and cannot be discarded"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "http://www.spacecowboys.fr/img/games/splendor/details/rules/Rules_Splendor_US.pdf"
-            }
-        }
+        "citation": "To reserve a card, a player simply needs to take a face-up development from the middle of the table or [...]. The reserved cards are kept in hand and cannot be discarded",
+        "retrieved": "2017-12-13",
+        "url": "http://www.spacecowboys.fr/img/games/splendor/details/rules/Rules_Splendor_US.pdf"
     },
     "Stone Age": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "Each player stacks his acquired civilization cards face down on the designated space on his player board"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "https://boardgamegeek.com/file/download/97zezo7qm0/Stone_Age_-_Rules_-_Bernd_Brunnhofer.pdf"
-            }
-        }
+        "citation": "Each player stacks his acquired civilization cards face down on the designated space on his player board",
+        "retrieved": "2017-12-13",
+        "url": "https://boardgamegeek.com/file/download/97zezo7qm0/Stone_Age_-_Rules_-_Bernd_Brunnhofer.pdf"
     },
     "Terraforming Mars": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "Events (red cards, C) are collected in a personal pile face down after being played"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "http://www.fryxgames.se/TerraformingMars/TMRULESFINAL.pdf"
-            }
-        }
+        "citation": "Events (red cards, C) are collected in a personal pile face down after being played",
+        "retrieved": "2017-12-13",
+        "url": "http://www.fryxgames.se/TerraformingMars/TMRULESFINAL.pdf"
     },
     "The Castles of Burgundy": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "All corresponding goods tiles in the player’s goods storage are piled, face-down, onto the goods storage space on the player’s board intended for this purpose"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "https://www.ravensburger.com/content/wcm/mediadata/pdf/Microsites/Alea/Die%20Burgen%20von%20Burgund/Burgund_Englisch.pdf"
-            }
-        }
+        "citation": "All corresponding goods tiles in the player’s goods storage are piled, face-down, onto the goods storage space on the player’s board intended for this purpose",
+        "retrieved": "2017-12-13",
+        "url": "https://www.ravensburger.com/content/wcm/mediadata/pdf/Microsites/Alea/Die%20Burgen%20von%20Burgund/Burgund_Englisch.pdf"
     },
     "The Voyages of Marco Polo": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "Finally, the player moves the completed Contract Tile face down onto the drawer space of his Player Board"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "https://boardgamegeek.com/file/download/qmpwbgyogv/Voyages_Of_Marco_Polo_-_English_Rules_V3.pdf.zip"
-            }
-        }
+        "citation": "Finally, the player moves the completed Contract Tile face down onto the drawer space of his Player Board",
+        "retrieved": "2017-12-13",
+        "url": "https://boardgamegeek.com/file/download/qmpwbgyogv/Voyages_Of_Marco_Polo_-_English_Rules_V3.pdf.zip"
     },
     "Through the Ages: A New Story of Civilization": {
         "hti": "optional",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "Because civil cards are never drawn secretly, the players may decide that civil cards in hand are public at all times"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "https://czechgames.com/files/rules/through-the-ages-new-story-rules-en.pdf"
-            }
-        }
+        "citation": "Because civil cards are never drawn secretly, the players may decide that civil cards in hand are public at all times",
+        "retrieved": "2017-12-13",
+        "url": "https://czechgames.com/files/rules/through-the-ages-new-story-rules-en.pdf"
     },
     "Tigris & Euphrates": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "All victory point and treasure tokens gained and tiles behind a player’s screen are hidden information; they are kept secret from other players until scoring"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "https://images-cdn.zmangames.com/us-east-1/filer_public/92/3f/923f8aba-72f1-4aa5-9622-d648ad1a9aa7/kn25_rulebook_web.pdf"
-            }
-        }
+        "citation": "All victory point and treasure tokens gained and tiles behind a player’s screen are hidden information; they are kept secret from other players until scoring",
+        "retrieved": "2017-12-13",
+        "url": "https://images-cdn.zmangames.com/us-east-1/filer_public/92/3f/923f8aba-72f1-4aa5-9622-d648ad1a9aa7/kn25_rulebook_web.pdf"
     },
     "Tulip Bubble": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "The guilders and tulip cards you have are hidden information, and should be hidden behind your player screen"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "https://boardgamegeek.com/file/download/wnba74il24/Tulip_Bubble_Rulebook_21x21_ENG-0727_Final-SSSSSS.pdf"
-            }
-        }
+        "citation": "The guilders and tulip cards you have are hidden information, and should be hidden behind your player screen",
+        "retrieved": "2017-12-13",
+        "url": "https://boardgamegeek.com/file/download/wnba74il24/Tulip_Bubble_Rulebook_21x21_ENG-0727_Final-SSSSSS.pdf"
     },
     "Yamataï": {
         "hti": "yes",
-        "references": {
-            "Rules": {
-                "citations": [
-                    "Take the building tile and place it face down in front of you. At the end of the game, the building will grant you Prestige Points (PPs)"
-                ],
-                "retrieved": "2017-12-13",
-                "url": "https://cdn0.daysofwonder.com/yamatai/en/img/ym_rules_en.pdf"
-            }
-        }
+        "citation": "Take the building tile and place it face down in front of you. At the end of the game, the building will grant you Prestige Points (PPs)",
+        "retrieved": "2017-12-13",
+        "url": "https://cdn0.daysofwonder.com/yamatai/en/img/ym_rules_en.pdf"
     }
 }

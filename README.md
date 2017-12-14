@@ -1,7 +1,7 @@
 # HTI (Hidden Trackable Information) in board games
 
-[Current list](https://agt-the-walker.github.io/board/). I am looking for the
-following strings:
+[Current list](https://agt-the-walker.github.io/board-utils/). I am looking for
+the following strings:
 
 * "confidential"
 * "down" (this includes "facedown", etc.)

@@ -92,6 +92,20 @@
         "url": "https://boardgamegeek.com/file/download/u29slde4up/GWT_Rules_GB_LR.pdf"
     },
     {
+        "name": "Ilôs",
+        "hti": "yes",
+        "citation": "Use Screens to hide your stock of Resources from the other players",
+        "retrieved": "2017-12-14",
+        "url": "https://boardgamegeek.com/file/download/w62uj53fuy/Ilos-EN-web.pdf"
+    },
+    {
+        "name": "Isle of Skye: From Chieftain to King",
+        "hti": "yes",
+        "citation": "If you have gold left, you should keep it in your hand to hide the amount from the other players",
+        "retrieved": "2017-12-14",
+        "url": "http://lookout-spiele.de/wp-content/uploads/IoS_Rules_web_EN.pdf"
+    },
+    {
         "name": "Magnum Sal",
         "hti": "yes",
         "citation": "When a tool is used, it is turned face down to indicate that it cannot be used again during this phase",
@@ -155,6 +169,12 @@
         "retrieved": "2017-12-13",
         "url": "https://app.box.com/s/rj3jrw0rab2uiz02up89kbant5g8ew1p/folder/6316565229",
         "item": "ScytheRules_5th_r20-Panda.pdf"
+    },
+    {
+        "name": "Seasons",
+        "hti": "no",
+        "retrieved": "2017-12-14",
+        "url": "https://www.fgbradleys.com/rules/rules4/Seasons%20-%20rules.PDF"
     },
     {
         "name": "Splendor",

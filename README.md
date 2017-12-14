@@ -1,6 +1,7 @@
-# HTI
+# HTI (Hidden Trackable Information) in Board Games
 
-I am looking for the following keywords:
+[Current list](https://agt-the-walker.github.io/board/). I am looking for the
+following strings:
 
 * "confidential"
 * "down" (this includes "facedown", etc.)
@@ -8,55 +9,3 @@ I am looking for the following keywords:
 * "private"
 * "public"
 * "secret"
-
-## 7 Wonders
-
-∅
-
-## 7 Wonders Duel
-
-∅
-
-## Agricola 2
-
-∅
-
-## Carcassonne
-
-∅
-
-## Caylus
-
-∅
-
-## Orléans
-
-∅
-
-## Peak Oil
-
-∅
-
-## Queendomino
-
-∅
-
-## Samarkand
-
-∅
-
-## Terra Mystica
-
-∅
-
-## Terraforming Mars Venus Next
-
-∅
-
-## The Pillars of the Earth
-
-∅
-
-## Yokohama
-
-∅

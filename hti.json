@@ -1,15 +1,47 @@
 [
     {
+        "name": "7 Wonders",
+        "hti": "yes",
+        "citation": "The cards discarded this way remain face down and form a discard pile in the center of the table",
+        "retrieved": "2017-12-14",
+        "url": "http://rprod.com/uploads/file/7WONDERS_RULES_US_COLOR.pdf"
+    },
+    {
+        "name": "7 Wonders Duel",
+        "hti": "no",
+        "citation": "",
+        "retrieved": "2017-12-14",
+        "url": "http://www.7wondersduel.com/files/rules/7-Wonders-Duel-Rules-US.pdf"
+    },
+    {
+        "name": "Agricola (revised edition)",
+        "hti": "no",
+        "retrieved": "2017-12-14",
+        "url": "http://www.mayfairgames.com/files/supportfiles/mfg3515_rules_en.pdf"
+    },
+    {
         "name": "Azul",
         "hti": "no",
         "retrieved": "2017-12-13",
         "url": "https://www.planbgames.com/en/index.php?controller=attachment&id_attachment=9"
     },
     {
+        "name": "Carcassonne",
+        "hti": "no",
+        "retrieved": "2017-12-14",
+        "url": "http://riograndegames.com/getFile.php?id=670"
+    },
+    {
         "name": "Caverna",
         "hti": "no",
         "retrieved": "2017-12-13",
         "url": "https://boardgamegeek.com/file/download/nk66lnd8hh/Caverna_Rules_EN.pdf.zip"
+    },
+    {
+        "name": "Caylus",
+        "hti": "no",
+        "retrieved": "2017-12-14",
+        "url": "http://riograndegames.com/getFile.php?id=711"
     },
     {
         "name": "Clans of Caledonia",
@@ -67,6 +99,18 @@
         "url": "https://boardgamegeek.com/file/download/6rzn7vjgrr/MagnumSal_Rulebook_EN.pdf"
     },
     {
+        "name": "Orléans",
+        "hti": "no",
+        "retrieved": "2017-12-14",
+        "url": "http://www.dlp-games.de/tpl/download/Orleans_EN.pdf"
+    },
+    {
+        "name": "Peak Oil",
+        "hti": "no",
+        "retrieved": "2017-12-14",
+        "url": "https://boardgamegeek.com/file/download/wepk2drpbn/2T_PO-rules-EN-170724.pdf"
+    },
+    {
         "name": "Photosynthesis",
         "hti": "no",
         "retrieved": "2017-12-13",
@@ -86,11 +130,23 @@
         "url": "https://czechgames.com/files/rules/pulsar-2849-rules-en.pdf"
     },
     {
+        "name": "Queendomino",
+        "hti": "no",
+        "retrieved": "2017-12-14",
+        "url": "http://www.blueorangegames.com/administrator/components/com_bogames/files/rules/82fabaa30b938ad2020e470fd56ca02b-Queendomino-rules-US.pdf"
+    },
+    {
         "name": "Roll for the Galaxy",
         "hti": "yes",
         "citation": "Which tiles are beneath the top tile of each construction zone stack are secret. A player may look at tiles in his own stacks at any time. When asked, he must tell other players the size of each stack",
         "retrieved": "2017-12-13",
         "url": "http://riograndegames.com/getFile.php?id=1837"
+    },
+    {
+        "name": "Samarkand: Routes to Riches",
+        "hti": "no",
+        "retrieved": "2017-12-14",
+        "url": "https://boardgamegeek.com/file/download/5al0h3hkve/Samarkand_English_Rules.pdf"
     },
     {
         "name": "Scythe",
@@ -115,6 +171,12 @@
         "url": "https://boardgamegeek.com/file/download/97zezo7qm0/Stone_Age_-_Rules_-_Bernd_Brunnhofer.pdf"
     },
     {
+        "name": "Terra Mystica",
+        "hti": "no",
+        "retrieved": "2017-12-14",
+        "url": "http://www.feuerland-spiele.de/dateien/Terra_Mystica_EN_1.0_.pdf"
+    },
+    {
         "name": "Terraforming Mars",
         "hti": "yes",
         "citation": "Events (red cards, C) are collected in a personal pile face down after being played",
@@ -127,6 +189,12 @@
         "citation": "All corresponding goods tiles in the player’s goods storage are piled, face-down, onto the goods storage space on the player’s board intended for this purpose",
         "retrieved": "2017-12-13",
         "url": "https://www.ravensburger.com/content/wcm/mediadata/pdf/Microsites/Alea/Die%20Burgen%20von%20Burgund/Burgund_Englisch.pdf"
+    },
+    {
+        "name": "The Pillars of the Earth",
+        "hti": "no",
+        "retrieved": "2017-12-14",
+        "url": "http://mayfairgames.com/files/supportfiles/mfg4103-rules-v1_0.pdf"
     },
     {
         "name": "The Voyages of Marco Polo",
@@ -162,5 +230,12 @@
         "citation": "Take the building tile and place it face down in front of you. At the end of the game, the building will grant you Prestige Points (PPs)",
         "retrieved": "2017-12-13",
         "url": "https://cdn0.daysofwonder.com/yamatai/en/img/ym_rules_en.pdf"
+    },
+    {
+        "name": "Yokohama",
+        "hti": "no",
+        "citation": "All information is public except for Order cards in the possession of players",
+        "retrieved": "2017-12-14",
+        "url": "https://boardgamegeek.com/file/download/txoi8zmm8b/YOKOHAMAEnweb.pdf"
     }
 ]

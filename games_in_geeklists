@@ -3,7 +3,15 @@
 require 'net/http'
 require 'nokogiri'
 
-USER = 'Agt the Walker'
+##### Argument parsing
+
+if ARGV[0] == '--help' or ARGV.size != 1
+  abort "Usage: #$0 <BGG username>"
+end
+USER = ARGV[0]
+
+##### Main program
+
 GEEKLIST_URL = URI.escape(
                  "https://boardgamegeek.com/geeklist/lists/user/#{USER}"
                )

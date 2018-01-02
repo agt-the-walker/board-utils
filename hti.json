@@ -92,6 +92,13 @@
         "url": "https://boardgamegeek.com/file/download/u29slde4up/GWT_Rules_GB_LR.pdf"
     },
     {
+        "name": "Hit Z Road",
+        "hti": "yes",
+        "citation": "Both cards are resolved in order from left to right, and after resolving the cards, the player keeps them facedown in front of him",
+        "retrieved": "2018-01-02",
+        "url": "https://images-cdn.asmodee.us/filer_public/ba/71/ba71c9db-5f8b-4a06-922e-f065de602ebf/hit_z_road_rules.pdf"
+    },
+    {
         "name": "Ilôs",
         "hti": "yes",
         "citation": "Use Screens to hide your stock of Resources from the other players",
@@ -104,6 +111,19 @@
         "citation": "If you have gold left, you should keep it in your hand to hide the amount from the other players",
         "retrieved": "2017-12-14",
         "url": "http://lookout-spiele.de/wp-content/uploads/IoS_Rules_web_EN.pdf"
+    },
+    {
+        "name": "Kingdomino",
+        "hti": "no",
+        "retrieved": "2018-01-02",
+        "url": "https://boardgamegeek.com/file/download/tmwo88pow9/Kingdomino_rules_UK_PROD.pdf"
+    },
+    {
+        "name": "Lords of Waterdeep",
+        "hti": "yes",
+        "citation": "After you collect the reward, turn the Quest card face down and place it on the “Completed Quests” area of your player mat",
+        "retrieved": "2018-01-02",
+        "url": "http://dnd.wizards.com/sites/default/files/media/DnD_LOW_Rulebook_EN_1.pdf"
     },
     {
         "name": "Magnum Sal",
@@ -123,6 +143,12 @@
         "hti": "no",
         "retrieved": "2017-12-14",
         "url": "https://boardgamegeek.com/file/download/wepk2drpbn/2T_PO-rules-EN-170724.pdf"
+    },
+    {
+        "name": "Peloponnes",
+        "hti": "no",
+        "retrieved": "2018-01-02",
+        "url": "https://boardgamegeek.com/file/download/4gjagtedwp/Peloponnes_Rules_-_English.pdf"
     },
     {
         "name": "Photosynthesis",
@@ -150,6 +176,19 @@
         "url": "http://www.blueorangegames.com/administrator/components/com_bogames/files/rules/82fabaa30b938ad2020e470fd56ca02b-Queendomino-rules-US.pdf"
     },
     {
+        "name": "Race for the Galaxy",
+        "hti": "no",
+        "retrieved": "2018-01-02",
+        "url": "http://riograndegames.com/getFile.php?id=273"
+    },
+    {
+        "name": "Red7",
+        "hti": "yes",
+        "citation": "If you are not winning the game at the end of your turn, you lose and are out of the round. Place your [...] Palette cards facedown",
+        "retrieved": "2018-01-02",
+        "url": "https://boardgamegeek.com/file/download/r4p7lo3vr6/1.2_Englishrules.pdf"
+    },
+    {
         "name": "Roll for the Galaxy",
         "hti": "yes",
         "citation": "Which tiles are beneath the top tile of each construction zone stack are secret. A player may look at tiles in his own stacks at any time. When asked, he must tell other players the size of each stack",
@@ -161,6 +200,13 @@
         "hti": "no",
         "retrieved": "2017-12-14",
         "url": "https://boardgamegeek.com/file/download/5al0h3hkve/Samarkand_English_Rules.pdf"
+    },
+    {
+        "name": "Sankt Petersburg",
+        "hti": "yes",
+        "citation": "The players keep their money secret from others during the game [...]",
+        "retrieved": "2018-01-02",
+        "url": "http://riograndegames.com/getFile.php?id=150"
     },
     {
         "name": "Scythe",
@@ -249,6 +295,12 @@
         "citation": "The guilders and tulip cards you have are hidden information, and should be hidden behind your player screen",
         "retrieved": "2017-12-13",
         "url": "https://boardgamegeek.com/file/download/wnba74il24/Tulip_Bubble_Rulebook_21x21_ENG-0727_Final-SSSSSS.pdf"
+    },
+    {
+        "name": "Viticulture",
+        "hti": "no",
+        "retrieved": "2018-01-02",
+        "url": "https://boardgamegeek.com/file/download/ox8fik6lz2/SinglePageRulebook_2ndEd_r12-Panda.pdf"
     },
     {
         "name": "Yamataï",

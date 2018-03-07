@@ -1,4 +1,4 @@
-const {binomialCoefficient} = require('./k-combinations')
+const {binomialCoefficient, kCombination} = require('./k-combination')
 
 // thanks https://en.wikipedia.org/wiki/Binomial_coefficient#Pascal's_triangle
 test('C(0, 0) equals 1', () => {
@@ -27,4 +27,12 @@ test('C(5, 3) equals 10', () => {
 // thanks http://www.ohrt.com/odds/binomial.php
 test('C(45, 17) equals 1103068603890', () => {
   expect(binomialCoefficient(45, 17)).toBe(1103068603890)
+})
+
+// thanks https://en.wikipedia.org/wiki/Combinatorial_number_system#Example
+test('5-combination at position 0 equals [0, 1, 2, 3, 4]', () => {
+  expect(kCombination(5, 0)).toEqual([0, 1, 2, 3, 4])
+})
+test('5-combination at position 72 equals [0, 1, 3, 6, 8]', () => {
+  expect(kCombination(5, 72)).toEqual([0, 1, 3, 6, 8])
 })

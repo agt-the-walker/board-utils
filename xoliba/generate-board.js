@@ -16,9 +16,10 @@ if (args.length != NUM_PLAYERS) {
 
 const board = []  // order: A2, [...], A6, B1, [...], B7, C1, etc.
 for (let player = 0; player < NUM_PLAYERS; player++) {
-  let positions = new Set(
+  const positions = new Set(
     kCombination(NUM_PLAYER_PIECES, parseInt(args[player]))
   )
+
   let offset = 0
   for (let index = 0; index < NUM_INTERSECTIONS; index++) {
     if (index in board)
@@ -33,13 +34,12 @@ for (let y = 0; y < BOARD_SIZE; y++) {
 
   for (let x = 0; x < BOARD_SIZE; x++) {
     let offset  // to take the corners into account
-    if (x == 0) {
+    if (x == 0)
       offset = 1
-    } else if (x == BOARD_SIZE - 1) {
+    else if (x == BOARD_SIZE - 1)
       offset = 3
-    } else {
+    else
       offset = 2
-    }
 
     if ((x == 0 || x == BOARD_SIZE - 1) && (y == 0 || y == BOARD_SIZE - 1)) {
       row.push(' ')  // corner

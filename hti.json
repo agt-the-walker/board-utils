@@ -132,6 +132,13 @@
         "url": "https://boardgamegeek.com/file/download/6rzn7vjgrr/MagnumSal_Rulebook_EN.pdf"
     },
     {
+        "name": "Nemeton",
+        "hti": "yes",
+        "citation": "Or reserve one of the Potion cards among the 3 visible Potion cards on the left of the board that they will then place face down in front of them",
+        "retrieved": "2019-03-04",
+        "url": "http://blam-edition.com/medias/5bb73491512a8_Rules_Nemeton_EN_1.8.7_light.pdf"
+    },
+    {
         "name": "Orléans",
         "hti": "no",
         "retrieved": "2017-12-14",
@@ -188,6 +195,12 @@
         "url": "https://boardgamegeek.com/file/download/r4p7lo3vr6/1.2_Englishrules.pdf"
     },
     {
+        "name": "Reykholt",
+        "hti": "no",
+        "retrieved": "2019-03-04",
+        "url": "https://static1.squarespace.com/static/54148cdae4b05a3412bfa19b/t/5ba189a30e2e72c468ba65ab/1537313214045/Reykholt_Rulebook.pdf"
+    },
+    {
         "name": "Roll for the Galaxy",
         "hti": "yes",
         "citation": "Which tiles are beneath the top tile of each construction zone stack are secret. A player may look at tiles in his own stacks at any time. When asked, he must tell other players the size of each stack",
@@ -240,6 +253,12 @@
         "citation": "Each player stacks his acquired civilization cards face down on the designated space on his player board",
         "retrieved": "2017-12-13",
         "url": "https://boardgamegeek.com/file/download/97zezo7qm0/Stone_Age_-_Rules_-_Bernd_Brunnhofer.pdf"
+    },
+    {
+        "name": "Taluva",
+        "hti": "no",
+        "retrieved": "2019-03-04",
+        "url": "https://boardgamegeek.com/file/download_redirect/9f714540ed41b77e2bc5625dcb1a17ee92b7eba7d917dc8d/Taluva_English_v1.1.pdf"
     },
     {
         "name": "Terra Mystica",

@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+
+require 'net/http'
+require 'nokogiri'
+
+##### Argument parsing
+
+if ARGV[0] == '--help' or ARGV.size != 1
+  abort "Usage: #$0 <BGG username>"
+end
+USER = ARGV[0]
+
+##### Main program
+
+PLAYED_URL = URI.escape(
+    "https://www.boardgamegeek.com/xmlapi/collection/#{USER}?played=1")
+
+uri = URI(PLAYED_URL)
+Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
+  games = []
+
+  Nokogiri::XML(http.get(uri.request_uri).body)\
+               .css('/items/item').each do |item|
+    games << item['objectid']
+  end
+
+  puts Nokogiri::XML(http.get("/xmlapi/boardgame/#{games.join(',')}?stats=1")\
+                         .body)
+end

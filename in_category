@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+
+require 'nokogiri'
+
+##### Argument parsing
+
+if ARGV[0] == '--help' or ARGV.size != 1
+  abort "Usage: #$0 <category>"
+end
+CATEGORY = ARGV[0]
+
+##### Main program
+
+boardgames = Nokogiri::XML(STDIN.read)
+boardgames.search('//boardgames/boardgame').each do |boardgame|
+  unless boardgame.search('./boardgamecategory')\
+                  .detect { |category| category.text == CATEGORY }
+    boardgame.remove
+  end
+end
+print boardgames

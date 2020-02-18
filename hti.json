@@ -261,6 +261,13 @@
         "url": "https://boardgamegeek.com/file/download_redirect/9f714540ed41b77e2bc5625dcb1a17ee92b7eba7d917dc8d/Taluva_English_v1.1.pdf"
     },
     {
+        "name": "Takenoko",
+        "hti": "yes",
+        "citation": "The player draws three plots, chooses one and places the other two back on top of the deck, face-down [...]",
+        "retrieved": "2020-02-18",
+        "url": "https://www.matagot.com/docs/Takenoko_rules_EN.pdf"
+    },
+    {
         "name": "Terra Mystica",
         "hti": "no",
         "retrieved": "2017-12-14",

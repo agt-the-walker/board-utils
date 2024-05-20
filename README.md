@@ -36,7 +36,7 @@ XML format.
 
 ## Requirements
 
-* [Ruby](http://www.ruby-lang.org/en/) 2.0+
+* [Ruby](https://www.ruby-lang.org/en/) 2.0+
 * [Nokogiri](https://rubygems.org/gems/nokogiri) gem
 
 ## Usage

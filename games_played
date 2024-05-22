@@ -17,15 +17,13 @@ def fetch_exponential_backoff(agent, url)
   num_tries = 1
   page = agent.get(url)
 
-  while page.code == 202  # https://boardgamegeek.com/wiki/page/BGG_XML_API#toc5
+  while page.code == 202 # https://boardgamegeek.com/wiki/page/BGG_XML_API#toc5
     sleep(sleep_seconds)
     sleep_seconds *= SLEEP_MULTIPLIER
     num_tries += 1
     page = agent.get(url)
 
-    if num_tries > MAX_TRIES
-      abort "Error: couldn't fetch #{url}"
-    end
+    abort "Error: couldn't fetch #{url}" if num_tries > MAX_TRIES
   end
 
   page.body
@@ -33,9 +31,7 @@ end
 
 ##### Argument parsing
 
-if ARGV[0] == '--help' or ARGV.size != 1
-  abort "Usage: #$0 <BGG username>"
-end
+abort "Usage: #{$0} <BGG username>" if ARGV[0] == '--help' or ARGV.size != 1
 USER = ARGV[0]
 
 ##### Main program

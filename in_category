@@ -4,9 +4,7 @@ require 'nokogiri'
 
 ##### Argument parsing
 
-if ARGV[0] == '--help' or ARGV.size != 1
-  abort "Usage: #$0 <category>"
-end
+abort "Usage: #{$0} <category>" if ARGV[0] == '--help' or ARGV.size != 1
 CATEGORY = ARGV[0]
 
 ##### Main program

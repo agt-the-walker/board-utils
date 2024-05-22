@@ -14,7 +14,7 @@ CATEGORY = ARGV[0]
 
 boardgames = Nokogiri::XML($stdin.read)
 boardgames.search('//boardgames/boardgame').each do |boardgame|
-  unless boardgame.search('./boardgamecategory') \
+  unless boardgame.search('./boardgamecategory')
                   .detect { |category| category.text == CATEGORY }
     boardgame.remove
   end

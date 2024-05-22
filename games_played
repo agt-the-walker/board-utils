@@ -45,10 +45,7 @@ user = ERB::Util.url_encode(USER)
 PLAYED_URL = "https://www.boardgamegeek.com/xmlapi/collection/#{user}?played=1"
 page = fetch_exponential_backoff(agent, PLAYED_URL)
 
-games = []
-Nokogiri::XML(page).css('/items/item').each do |item|
-  games << item['objectid']
-end
+games = Nokogiri::XML(page).css('/items/item').map { |item| item['objectid'] }
 
 STATS_URL = "https://www.boardgamegeek.com/xmlapi/boardgame/#{games.join(',')}?stats=1"
 page = fetch_exponential_backoff(agent, STATS_URL)

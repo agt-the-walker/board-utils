@@ -1,11 +1,12 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 require 'json'
 require 'nokogiri'
 
 json = []
 
-Nokogiri::XML(STDIN.read).css('/boardgames/boardgame').each do |boardgame|
+Nokogiri::XML($stdin.read).css('/boardgames/boardgame').each do |boardgame|
   ratings = boardgame.css('/statistics/ratings')
 
   json << [boardgame.css('/name[primary="true"]').text,

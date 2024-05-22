@@ -1,17 +1,20 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 require 'nokogiri'
 
 ##### Argument parsing
 
-abort "Usage: #{$0} <category>" if ARGV[0] == '--help' or ARGV.size != 1
+if ARGV[0] == '--help' || ARGV.size != 1
+  abort "Usage: #{$PROGRAM_NAME} <category>"
+end
 CATEGORY = ARGV[0]
 
 ##### Main program
 
-boardgames = Nokogiri::XML(STDIN.read)
+boardgames = Nokogiri::XML($stdin.read)
 boardgames.search('//boardgames/boardgame').each do |boardgame|
-  unless boardgame.search('./boardgamecategory')\
+  unless boardgame.search('./boardgamecategory') \
                   .detect { |category| category.text == CATEGORY }
     boardgame.remove
   end

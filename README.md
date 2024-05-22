@@ -14,11 +14,6 @@ the following strings:
 
 ## Purpose
 
-### games\_in\_geeklists
-
-Print all games in the public geeklists of the given
-[BoardGameGeek](https://boardgamegeek.com/) username in XML format.
-
 ### games\_played
 
 Print all games played by the given [BoardGameGeek](https://boardgamegeek.com/)
@@ -40,11 +35,5 @@ XML format.
 * [Nokogiri](https://rubygems.org/gems/nokogiri) gem
 
 ## Usage
-
-    $ ./games_in_geeklists 'Agt the Walker' | ./json_stats >board.json
-
-This generated [board.json](https://agt-the-walker.github.io/board.json), and
-can be used to display something like
-[board.html](https://agt-the-walker.github.io/board.html).
 
     $ ./games_played 'Agt the Walker' | ./in_category 'Card Game' | ./json_stats

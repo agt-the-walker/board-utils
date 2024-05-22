@@ -1,3 +1,5 @@
+![Ruby workflow](https://github.com/agt-the-walker/board-utils/actions/workflows/ruby.yml/badge.svg)
+
 # HTI (Hidden Trackable Information) in board games
 
 [Current list](https://agt-the-walker.github.io/board-utils/). I am looking for
@@ -31,7 +33,8 @@ XML format.
 
 ## Requirements
 
-* [Ruby](https://www.ruby-lang.org/en/) 2.0+
+* [Ruby](https://www.ruby-lang.org/en/) 2.7+
+* [Mechanize](https://rubygems.org/gems/mechanize) gem
 * [Nokogiri](https://rubygems.org/gems/nokogiri) gem
 
 ## Usage

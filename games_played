@@ -1,7 +1,35 @@
 #!/usr/bin/env ruby
 
-require 'net/http'
+require 'erb'
+require 'mechanize'
 require 'nokogiri'
+
+##### Constants
+
+MAX_TRIES = 7
+SLEEP_SECONDS = 1
+SLEEP_MULTIPLIER = 2
+
+##### Functions
+
+def fetch_exponential_backoff(agent, url)
+  sleep_seconds = SLEEP_SECONDS
+  num_tries = 1
+  page = agent.get(url)
+
+  while page.code == 202  # https://boardgamegeek.com/wiki/page/BGG_XML_API#toc5
+    sleep(sleep_seconds)
+    sleep_seconds *= SLEEP_MULTIPLIER
+    num_tries += 1
+    page = agent.get(url)
+
+    if num_tries > MAX_TRIES
+      abort "Error: couldn't fetch #{url}"
+    end
+  end
+
+  page.body
+end
 
 ##### Argument parsing
 
@@ -12,18 +40,17 @@ USER = ARGV[0]
 
 ##### Main program
 
-PLAYED_URL = URI.escape(
-    "https://www.boardgamegeek.com/xmlapi/collection/#{USER}?played=1")
+agent = Mechanize.new
 
-uri = URI(PLAYED_URL)
-Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
-  games = []
+user = ERB::Util.url_encode(USER)
+PLAYED_URL = "https://www.boardgamegeek.com/xmlapi/collection/#{user}?played=1"
+page = fetch_exponential_backoff(agent, PLAYED_URL)
 
-  Nokogiri::XML(http.get(uri.request_uri).body)\
-               .css('/items/item').each do |item|
-    games << item['objectid']
-  end
-
-  puts Nokogiri::XML(http.get("/xmlapi/boardgame/#{games.join(',')}?stats=1")\
-                         .body)
+games = []
+Nokogiri::XML(page).css('/items/item').each do |item|
+  games << item['objectid']
 end
+
+STATS_URL = "https://www.boardgamegeek.com/xmlapi/boardgame/#{games.join(',')}?stats=1"
+page = fetch_exponential_backoff(agent, STATS_URL)
+puts Nokogiri::XML(page)

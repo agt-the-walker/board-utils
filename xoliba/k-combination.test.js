@@ -14,7 +14,7 @@ test('C(2, 0) equals 1', () => {
   expect(binomialCoefficient(2, 0)).toBe(1)
 })
 
-// thanks http://www.ohrt.com/odds/binomial.php
+// thanks https://www.ohrt.com/odds/binomial.php
 test('C(5, 2) equals 10', () => {
   expect(binomialCoefficient(5, 2)).toBe(10)
 })
@@ -24,7 +24,7 @@ test('C(5, 3) equals 10', () => {
   expect(binomialCoefficient(5, 3)).toBe(10)
 })
 
-// thanks http://www.ohrt.com/odds/binomial.php
+// thanks https://www.ohrt.com/odds/binomial.php
 test('C(45, 17) equals 1103068603890', () => {
   expect(binomialCoefficient(45, 17)).toBe(1103068603890)
 })
